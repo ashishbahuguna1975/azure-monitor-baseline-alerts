@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "mg-fortrea"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "mg-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "mg-security"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "mg-admin"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "mg-common"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "mg-landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -44,11 +44,11 @@
     "policyAssignmentParametersCommon": {
       "value": {
         "ALZMonitorResourceGroupName": {
-          "value": "rg-amba-monitoring-001"
+          "value": "rg-baseline-alerts-001"
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
-            "Project": "amba-monitoring"
+            "Project": "baseline-alerts"
           }
         },
         "ALZMonitorResourceGroupLocation": {
